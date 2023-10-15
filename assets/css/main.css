@@ -112,15 +112,20 @@ header .menu {
 }
 
 
-header .menu__logo {
-  max-width: 300px;
+header .menu__logo{
+  max-width: 200px;
+}
+
+header .menu__logo img{
+  max-width: 40px;
+  margin-bottom: 11px;
 }
 
 header .menu__logo a {
   color: #1F2020;
   font-weight: 600;
   font-size: 35px;
-  line-height: 28px;
+  line-height: 30px;
 }
 
 header .menu__bar {
@@ -130,7 +135,7 @@ header .menu__bar {
 
 header .menu__bar span {
   height: 3px;
-  width: 30px;
+  width: 35px;
   display: block;
   background-color: #404040;
 }
