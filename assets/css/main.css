@@ -389,7 +389,7 @@ header .mobile-menu__main li .active-menu::after {
 }
 
 .services-item.active-item, .services-item:hover {
-  background-color: #b53cd3;
+  background-color: #c669dd;
   border-radius: 7px;
 }
 
