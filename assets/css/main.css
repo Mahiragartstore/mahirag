@@ -4,6 +4,7 @@
 /* === start fromt   ( 768px - ) == */
 /* === For Large Device ( 1024px - 1200px) == */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -430,6 +431,7 @@ header .mobile-menu__main li .active-menu::after {
   }
 }
 
+
 /* === For Large Device ( 1024px - 1200px) == */
 .testimonial-left__heading {
   margin-bottom: 40px;
@@ -732,6 +734,57 @@ p {
   }
   p {
     font-size: 14px;
+  }
+}
+.banner-area__heading.{
+  display: flex;
+}
+.banner-area__heading .static-txt{
+  color: #b53cd3;
+  font-size: 60px;
+  font-weight: 500;
+}
+.banner-area__heading .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #b53cd3;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #1F2020;
+  border-left: 2px solid b53cd3;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
   }
 }
 
