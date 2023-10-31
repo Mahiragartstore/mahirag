@@ -745,7 +745,7 @@ p {
   font-weight: 600;
 }
 .banner-area__heading .dynamic-txts{
-  margin-left: 15px;
+  margin-left: 0px;
   height: 90px;
   line-height: 90px;
   overflow: hidden;
