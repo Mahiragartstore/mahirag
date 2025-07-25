@@ -1,7 +1,0 @@
-//  Colors variable goes here
-$colors: (
-	primary: blue,
-);
-@function color($color-name) {
-	@return map-get($map: $colors, $key: $color-name);
-}
